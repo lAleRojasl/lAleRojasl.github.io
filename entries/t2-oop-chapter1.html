@@ -43,8 +43,9 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Object Oriented Programming</h1>
-            <h2 class="subheading">Chapter 1 - Software and software engineering</b></h2>
+            <h1>Object Oriented Software Engineering</h1>
+            <h2 class="subheading">Practical Software Development using UML and Java</b></h2>
+            <h3>Chapter 1 - Software and software engineering</h3>
           </div>
         </div>
       </div>
@@ -56,24 +57,102 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <h2 class="section-heading">Section 1.7 - Activities common to software projects</h2>
+          <h2 class="section-heading">Section 1.7 <br> Activities common to software projects</h2>
+          <br>
           <h3 class="subheading">Requirements and specification</h3>
-          <p align="justify">Text</p>
+          <p align="justify">The book defines three main factors we must understand in order to determine the best course of action for any given solution: 
+            The <b>problem</b> itself, the <b>business environment</b>, and the <b>available technlogy</b>. The general process includes following activities:</p>
+            <h5>Domain analysis</h5>
+              <p align="justify">This refers to what is known as <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Domain_knowledge" target="_blank">Domain Knowledge</a>
+              This is the process in which we investigate common features between all the products and parts of the system, in order to discover potentially reusable designs. 
+              This is often learned from a user in the domain, an expert or specialist, rather than the software developers.</p>
+            <h5>Defining the problem</h5>
+            <p align="justify">One of the most important parts of understanding the problem, it's definining the <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Scope_(computer_science)" target="_blank">Scope</a> 
+              of the system. In simple words, this determines what is and what is NOT part of the features and functionalities the system must provide.</p>
+            <h5>Requirements gathering</h5>
+            <p align="justify">The process in which we obtain all the functional and non-functional requirements, everything the system is expected to do. 
+               This usually involves a middle man between the development team and the client. In Agile Methodologies, such as
+               <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">Scrum</a>, 
+               a Product Owner is in charge of gathering the requeriments for the project.</p>
+            <h5>Requirements analysis</h5>
+            <p align="justify"> Once we have gathered the requirements, we must organize them, and plan an action plan on how to execute the solution. 
+                This usually involves a discussion between the PO and the Development Team.
+            <h5>Requirements specification</h5>
+            <p align="justify"> One of the most important documents in every project. The specification will precisely point out every functionality or feature of the system.
+              Both the "whats" (what is needed to solve the problem) and the "hows" (the desing and implementation). It's important to point out that this is bound to change, 
+              so requirement analysis should continue throughout the life of a software system.
           <h3 class="subheading">Design</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Modeling</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Programming</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Quality assurance</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Deployment</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Managing software configurations</h3>
-          <p align="justify">Text</p>
-          <h3 class="subheading">Managing the process</h3>
-          <p align="justify">Text</p>
+          <p align="justify">
 
+              Design is the process of deciding how the requirements should be implemented using the available technology. This often involved the use of well defined and documented
+              <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Software_design_pattern" target="_blank">Design Patterns</a>, among them, Creational, Sctructural, Behavioral and Concurrency Patterns.
+              This design should always be defined to comply with several aspects of a system, to name a few:
+              <ul>
+                  <li>Compatibility</li>
+                  <li>Extensibility</li>
+                  <li>Fault-tolerance</li>
+                  <li>Maintainability</li>
+                  <li>Reliability</li>
+                  <li>Reusability</li>
+                  <li>Performance</li>
+                  <li>Portability</li>
+                  <li>Scalability</li>
+                </ul>
+          </p>
+          <h3 class="subheading">Modeling</h3>
+          <p align="justify">Modeling is the process of creating a representation of the domain or the software. 
+             Software modeling should address the entire software design including interfaces, interactions with other software, and all the software methods. The book mentions a few approaches:
+            <ul>
+                <li>Use Case modeling: Actions performed by users.</li>
+                <li>Structural modeling: Classes and objects.</li>
+                <li>Dynamic and behavioral modeling: States, activities and component interaction.</li>
+              </ul>
+              For object-oriented software, an object modeling language such as <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Unified_Modeling_LanguageUML" target="_blank">UML</a> is often used. 
+          </p>
+          <h3 class="subheading">Programming</h3>
+          <p align="justify">So we have our specification, we've defined our design. It's time to execute. This means, translating those higher-level designs into particular programming languages. 
+            This requires knowledge of a particular programming language, in order to make decisions about the appropriate use of constructs, variable declarations, etc. which language to use varies from project
+            to project. <b>C#, Java, Node and Python</b>, are common choices for Back-End and Middle-Tier development; <b>JavaScript, TypeScript, Swift, and PHP</b> are some popular options for Front-End.
+          </p>
+          <p align="justify">Now, when it comes to the methodologies for programming, the team must decide on which one suits best their expertise and level of communication. The book mentions 
+              <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Extreme_programming" target="_blank">Extreme Programming (XP)</a>, though I would argue this methodology is a bit outdated and newer
+              and more efective ones have emerged in the recent years. As mentioned before, Scrum is a very popular choice, along with Kanban, or even a combination of both. 
+              A very promising option gaining lots of popularity in recent years is <a style="color:#42D5EC;" href="https://www.scaledagileframework.com/" target="_blank">SAFe</a>.
+            </p>
+          <h3 class="subheading">Quality assurance</h3>
+          <p align="justify">When it comes to delivering software, quality is key. It's not only about delivering a working product, but one that complies with all of the aspects previously 
+            mentioned in the design section. In order to achieve this, we must do several activities, usually "tests", to verify and validate that our system works as expected. To mention a few:</p>
+            Functional tests:
+            <ul>
+                <li>Unit testing</li>
+                <li>Integration testing</li>
+                <li>System testing</li>
+                <li>Sanity testing</li>
+                <li>Smoke testing</li>
+                <li>Interface testing</li>
+                <li>Regression testing</li>
+                <li>Beta/Acceptance testing</li>
+                <li>Scalability</li>
+              </ul>
+
+            Non-functional testing types include:
+            <ul>
+                <li>Performance Testing</li>
+                <li>Load testing</li>
+                <li>Stress testing</li>
+                <li>Volume testing</li>
+                <li>Security testing</li>
+                <li>Reliability testing</li>
+                <li>Usability testing</li>
+                <li>Beta/Acceptance testing</li>
+                <li>Scalability</li>
+              </ul>
+          <h3 class="subheading">Deployment</h3>
+          <p align="justify">Finally, once our system is complete, it's time to deploy it. This is, release it into a public environment where the user can access and use it. In recent years, 
+            the concepts of <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Continuous_integration" target="_blank">Continuous Integration</a> and
+            <a style="color:#42D5EC;" href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">Continuous Delivery</a> have been vital to the succesful deployment of software in an
+            automated environment. Allowing the team to build, test, and release software with greater speed and frequency.
+          </p>
         </div>
       </div>
     </div>
